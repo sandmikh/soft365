@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	/*background-image: url(images/bacgraund/foto.png);*/
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 35px;
+}
+
+body{
+	font-family: "Open Sans", "Aria", "Helvetica", sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 153%;
+	/*запомнить, использовать всегда и везде*/
+}
+header {
+	font-size: 20px;
+	text-align: center;
+	width: 889px;
+	background-color: #efefef;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+header a {
+	text-decoration: none;
+	color: black;
+}
+header nav a {
+	padding-right: 10px;
+}
+
+header nav a:before {
+	border-left: 1px solid;
+	content: '';
+	display: inline-block;
+	height: 12px;
+	margin-right: 14px;
+}
+
+header nav a:first-child:before {
+	display: none;
+}
+
+#logo{
+	float: left;
+}
+
+header .tel {
+	float: right;
+}
+header .tel a{
+	color: #276b7f;
+}
+header .tel b{
+	color: black;
+}
+
+
+/*ниже идет main*/
+
+h1{
+	margin-bottom: 84px;
+	margin-top: 68px;
+  margin-left:543px;
+  font-size: 38px;
+  color:white ;
+}
+
+section{
+	margin-left:206px;
+	margin-top:30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ebf1f4;
+	width: 925px;
+}
+
+main img{
+	width: 410px;
+	height: 280px;
+}
+
+main section .text a {
+	color: black;
+	padding-left: 60px;
+	background: url(images/icon/doc.png) no-repeat left;
+	display: inline-block;
+	margin-top: 40px;
+	padding-top: 16px;
+	padding-bottom: 12px;
+
+}
+
+
+.text{
+	float: right;
+	margin-top: 7px;
+	width: 470px;
+}
+
+section .text p{
+	margin-top: 35px;
+}
+
+.pagination{
+	padding-top: 15px;
+	margin-left: 190px;
+}
+.pagination a{
+	text-decoration: none;
+	margin-left: 16px;
+	color: black;
+	font-weight: 700;
+	font-size:15px;
+	display: inline-block;
+} /*сделать все цифры блочно-строчные*/
+
+.pagination a.active{
+	background-color: #35d0d3;
+	color: white;
+	width: 25px;
+	height: 25px;
+}
+
+/* .pagination a  #next{
+	display: inline;
+	background: url(images/icon/bolshe1.png) no-repeat right 629 1296;
+} */
+
+#prev, #next {
+	color: #35d0d3;
+	font-weight: 700;
+}/*сделать картинки и вставить*/
+
+footer{
+	margin-top: 62px;
+	margin-left: 203px;
+	width: 940px;
+	height: 400px;
+	
+}
+
+footer nav a{
+	text-decoration: none;
+	font-weight: 900;
+	padding-right: 43px;
+	padding-left: 2px;
+	color: black;
+}
+
+footer nav{
+	border-top: 3px solid;
+	padding-top: 28px;
+}
+footer p{
+	margin-top: 25px;
+	color: #8e8e8e;
+}
