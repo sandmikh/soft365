@@ -4,6 +4,7 @@
 }
 #wrapper{
 	/*background-image: url(images/bacgraund/foto.png);*/
+	background-image:url(images/icon/background.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	padding-top: 35px;
@@ -24,6 +25,7 @@ header {
 	background-color: #efefef;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 68px;
 	padding-top: 21px;
 	padding-bottom: 21px;
 	padding-left: 28px;
@@ -45,6 +47,10 @@ header nav a:before {
 	margin-right: 14px;
 }
 
+header nav a:hover{
+	border-bottom: 1px solid;
+}
+
 header nav a:first-child:before {
 	display: none;
 }
@@ -56,35 +62,60 @@ header nav a:first-child:before {
 header .tel {
 	float: right;
 }
+
 header .tel a{
 	color: #276b7f;
 }
+
+header .tel a:hover{
+	color: black;
+	border-bottom: 1px solid;
+}
+
 header .tel b{
 	color: black;
 }
 
-
+header .tel b:hover{
+	color: #276b7f;
+}
 /*ниже идет main*/
+
+main{
+	width: 935px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 60px;
+	
+}
 
 h1{
 	margin-bottom: 84px;
-	margin-top: 68px;
-  margin-left:543px;
   font-size: 38px;
-  color:white ;
+  color:white;
+  text-align: center;
+  /*margin-bottom: 27px;*/
+}
+
+h2{
+	/*font-size:; */
+	/*line-height:154%;*/
+	/*не помню как посмотреть эти данные*/
 }
 
 section{
-	margin-left:206px;
-	margin-top:30px;
-	padding-bottom: 30px;
+	margin-top:27px;
+	padding-bottom: 70px;/*не помню как правильно центрируют*/
 	border-bottom: 1px solid #ebf1f4;
-	width: 925px;
 }
 
-main img{
+main .img{
 	width: 410px;
 	height: 280px;
+	background-color: grey;
+/*	padding-top: auto;
+	padding-bottom: auto;*/
+	/*как центрировать по середине?*/
 }
 
 main section .text a {
@@ -92,17 +123,20 @@ main section .text a {
 	padding-left: 60px;
 	background: url(images/icon/doc.png) no-repeat left;
 	display: inline-block;
-	margin-top: 40px;
-	padding-top: 16px;
+	/*margin-top: 40px;это не нужно?*/
 	padding-bottom: 12px;
+	/*padding-top: 12px;это тоже не нужно?*/
 
 }
 
+main section .text a:hover{
+	text-decoration: none;
+}
 
 .text{
-	float: right;
-	margin-top: 7px;
 	width: 470px;
+	margin-left: 450px;
+	margin-top: -270px;/*так правильно?*/
 }
 
 section .text p{
@@ -110,56 +144,56 @@ section .text p{
 }
 
 .pagination{
-	padding-top: 15px;
-	margin-left: 190px;
+	padding-top: 13px;
 }
 .pagination a{
 	text-decoration: none;
-	margin-left: 16px;
+	margin-left: 9px;
 	color: black;
 	font-weight: 700;
 	font-size:15px;
 	display: inline-block;
-} /*сделать все цифры блочно-строчные*/
+	text-align: center;
+	padding-top: 4px;
+}
+
+.pagination a:hover{
+	border-bottom: 1px solid;
+	color: #35d0d3;
+}
 
 .pagination a.active{
 	background-color: #35d0d3;
 	color: white;
-	width: 25px;
+	width: 30px;
 	height: 25px;
 }
 
-/* .pagination a  #next{
-	display: inline;
-	background: url(images/icon/bolshe1.png) no-repeat right 629 1296;
-} */
-
-#prev, #next {
-	color: #35d0d3;
-	font-weight: 700;
-}/*сделать картинки и вставить*/
+/*сделать картинки и вставить*/
 
 footer{
-	margin-top: 62px;
-	margin-left: 203px;
-	width: 940px;
-	height: 400px;
+	width: 935px;
+	margin-right: auto;
+	margin-left: auto;
 	
 }
 
 footer nav a{
 	text-decoration: none;
-	font-weight: 900;
-	padding-right: 43px;
-	padding-left: 2px;
+	font-weight: 600;
+	margin-right: 43px;
 	color: black;
+}
+
+footer nav a:hover { 
+  border-bottom: 1px solid;
 }
 
 footer nav{
 	border-top: 3px solid;
 	padding-top: 28px;
+	margin-bottom: 25px;
 }
 footer p{
-	margin-top: 25px;
 	color: #8e8e8e;
 }
