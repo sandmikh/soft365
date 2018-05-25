@@ -94,10 +94,11 @@ h1{
   font-size: 38px;
   color:white;
   text-align: center;
-  /*margin-bottom: 27px;*/
+  text-shadow: 2px 2px 3px black;
 }
 
 h2{
+	margin-bottom: 35px;
 	/*font-size:; */
 	/*line-height:154%;*/
 	/*не помню как посмотреть эти данные*/
@@ -139,10 +140,6 @@ main section .text a:hover{
 	margin-top: -270px;/*так правильно?*/
 }
 
-section .text p{
-	margin-top: 35px;
-}
-
 .pagination{
 	padding-top: 13px;
 }
@@ -168,8 +165,6 @@ section .text p{
 	width: 30px;
 	height: 25px;
 }
-
-/*сделать картинки и вставить*/
 
 footer{
 	width: 935px;
