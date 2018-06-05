@@ -79,7 +79,6 @@ header .tel b{
 header .tel b:hover{
 	color: #276b7f;
 }
-/*ниже идет main*/
 
 main{
 	width: 935px;
@@ -106,7 +105,7 @@ h2{
 
 section{
 	margin-top:27px;
-	padding-bottom: 70px;/*не помню как правильно центрируют*/
+	padding-bottom: 70px;
 	border-bottom: 1px solid #ebf1f4;
 }
 
@@ -114,9 +113,7 @@ main .img{
 	width: 410px;
 	height: 280px;
 	background-color: grey;
-/*	padding-top: auto;
-	padding-bottom: auto;*/
-	/*как центрировать по середине?*/
+	display: inline-block;
 }
 
 main section .text a {
@@ -124,10 +121,7 @@ main section .text a {
 	padding-left: 60px;
 	background: url(images/icon/doc.png) no-repeat left;
 	display: inline-block;
-	/*margin-top: 40px;это не нужно?*/
 	padding-bottom: 12px;
-	/*padding-top: 12px;это тоже не нужно?*/
-
 }
 
 main section .text a:hover{
@@ -135,9 +129,12 @@ main section .text a:hover{
 }
 
 .text{
-	width: 470px;
-	margin-left: 450px;
-	margin-top: -270px;/*так правильно?*/
+	width: 500px;
+	float: right;/*????????*/
+	text-align: justify;/*здесь он вроде не нужен*/
+	/*margin-left: 450px;*/
+	/*margin-top: -270px;/*так правильно?*/
+	display: inline-block;
 }
 
 .pagination{
