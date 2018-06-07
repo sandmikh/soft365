@@ -3,8 +3,8 @@
 	margin: 0;
 }
 #wrapper{
-	/*background-image: url(images/bacgraund/foto.png);*/
-	background-image:url(images/icon/background.jpg);
+	background-image: url(images/bacgraund/foto.png);
+	/*background-image:url(images/icon/background.jpg);*/
 	background-position: center top;
 	background-repeat: no-repeat;
 	padding-top: 35px;
@@ -98,9 +98,9 @@ h1{
 
 h2{
 	margin-bottom: 35px;
-	/*font-size:; */
-	/*line-height:154%;*/
-	/*не помню как посмотреть эти данные*/
+	font-size:20px; 
+	line-height:25px;
+	font-weight: 900;
 }
 
 section{
@@ -135,7 +135,7 @@ main section .text a:hover{
 .text{
 	width: 500px;
 	float: right;
-	text-align: justify;/*здесь он вроде не нужен*/
+	/*text-align: justify;здесь он вроде не нужен*/
 	/*margin-left: 450px;*/
 	/*margin-top: -270px;/*так правильно?*/
 	display: inline-block;
