@@ -3,8 +3,7 @@
 	margin: 0;
 }
 #wrapper{
-	background-image: url(images/bacgraund/foto.png);
-	/*background-image:url(images/icon/background.jpg);*/
+	background-image:url(images/bacgraund/background.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	padding-top: 35px;
@@ -108,9 +107,9 @@ section{
 	margin-bottom:36px;
 	padding-bottom: 36px;
 }
-/*почему псевдокласс не работает?????*/
+
 section:last-child{
-	margin-bottom: 0;
+	margin-bottom: 5px;
 }
 
 main .img{
@@ -135,9 +134,6 @@ main section .text a:hover{
 .text{
 	width: 500px;
 	float: right;
-	/*text-align: justify;здесь он вроде не нужен*/
-	/*margin-left: 450px;*/
-	/*margin-top: -270px;/*так правильно?*/
 	display: inline-block;
 }
 
